@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lora&display=swap');
+
+body{
+    font-family: 'Lora', serif;
+}
 h1 {
     color:darkolivegreen;
-    font-size: 60px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+    font-family: 'Dela Gothic One', cursive;
+}
+img {
+    width: 100%;
+}
+.flower-img {
+    width: 40%;
 }
