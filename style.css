@@ -2,11 +2,15 @@
 
 body{
     font-family: 'Lora', serif;
+    margin: 8px;
 }
 h1 {
     color:darkolivegreen;
     font-size: 55px;
     font-family: 'Dela Gothic One', cursive;
+}
+.journal-page h1{
+    color: coral;
 }
 img {
     width: 100%;

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Colors and Layers</title>
+        <style>
+            main{
+                position: relative;
+                display: flex;
+                border: 4px solid orchid;
+                margin: 80px;
+                height: 90vh;
+            }
+            div{
+                width: 200px;
+                height: 200px;
+                /* to make circle*/
+                border-radius: 50%;
+                background-color: #ccc;
+            }
+            .one{
+                position: absolute;
+                top: 0;
+                left: 0;
+                /*background: #ff9900;*/
+                background: rgb(242, 173, 77);
+            }
+            .two{
+                /* background: #49e; */
+                background: rgba(250,20,20,.5);
+                margin-left: 100px;
+            }
+            .three{
+                background: #53a;
+            }
+            #forest-ext-shadow-host{
+                display: none;
+            }
+        </style>
+    </head>
+<body>
+    <main>
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        
+    </main>
+</body>
+</html>
