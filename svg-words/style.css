@@ -1,0 +1,40 @@
+svg{
+    overflow: visible;
+}
+#i, #w, #N, #T, #E, #R{
+    transition: all 1s ease;
+}
+#N_2{
+    transition: all 1s ease;
+    
+}
+
+#w:hover, #N:hover, #T:hover, #E:hover, #R:hover{
+    transform: rotate(15deg);
+}
+
+#i:hover {
+    animation-name: wiggle;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes wiggle {
+    0%{
+        transform: translate(10px,10px);
+    }
+    50%{
+        transform: translate(-10px,-10px);
+    }
+    100%{
+        transform: translate(10px,10px);
+    }
+}
+
+#N_2{
+    opacity: 0;
+}
+#N:hover #N_2{
+    opacity: 1;
+}
