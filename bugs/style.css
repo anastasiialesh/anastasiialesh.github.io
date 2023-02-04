@@ -1,6 +1,6 @@
 @font-face{
     font-family: Megar;
-    src: url(fonts/megar.ttf)
+    src: url(fonts/Megar.ttf)
 }
 
 *{
@@ -40,7 +40,10 @@ header{
     width: 100vw;
     border-bottom: 1px solid rgba(51,51,51,1);
 }
-
+header .logo{
+    width: 200px;
+    height: auto;
+}
 .home-nav, .home-sub-nav{
     display: flex;
     position: relative;
@@ -57,6 +60,10 @@ header{
 
 .home-nav, .right{
     flex: 1;
+}
+
+.home-nav .right .lacewing{
+    transform: scaleX(-1);
 }
 
 .home-sub-nav div{
@@ -78,7 +85,9 @@ header{
     margin-top: -55px;
     flex: 1;
 }
-
+.about .ladybug-wings{
+    margin: auto;
+}
 footer{
     width: 100%;
     background-color: rgba(255, 250, 206, 1);
@@ -97,4 +106,8 @@ footer .bottom-nav{
     justify-content: space-between;
     margin: 0;
     padding: 0;
+}
+
+footer .bottom-nav li{
+    color: rgba(155, 190, 96, 1);
 }
