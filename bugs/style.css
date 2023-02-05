@@ -62,8 +62,17 @@ header .logo{
     flex: 1;
 }
 
+.home-nav .left .mantis{
+    margin-left: -55px;
+}
+
+
+.home-nav .right .ladybug{
+    margin-top: -55px;
+}
+
 .home-nav .right .lacewing{
-    transform: scaleX(-1);
+    margin-right: 100px;
 }
 
 .home-sub-nav div{
@@ -87,6 +96,7 @@ header .logo{
 }
 .about .ladybug-wings{
     margin: auto;
+    text-align: center;
 }
 footer{
     width: 100%;
@@ -108,6 +118,42 @@ footer .bottom-nav{
     padding: 0;
 }
 
-footer .bottom-nav li{
+footer .bottom-nav a:link{
+    color: rgba(213, 130, 116, 1);
+    text-decoration: none;
+}
+
+footer .bottom-nav a:hover{
     color: rgba(155, 190, 96, 1);
+}
+
+footer .bottom-nav a:visited{
+    color: rgba(155, 190, 96, 1);
+}
+
+/* Ladybug Page */
+
+.ladybug-page .about{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.ladybug-left .ladybug-right{
+    flex: 1;
+}
+
+.ladybug-page .instructions{
+    width: 100vw;
+    background-color: rgba(213, 130, 116, 1);
+}
+
+.ladybug-page .instructions article{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.release{
+    flex: 1;
 }
