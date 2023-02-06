@@ -270,7 +270,7 @@ footer .bottom-nav a:visited{
 
 .ladybug-page .instructions{
     width: 100vw;
-    background-color: rgba(213, 130, 116, 1);
+    background-color: rgba(238, 206, 200, 1);
 }
 
 .ladybug-page .instructions article{
@@ -292,7 +292,11 @@ footer .bottom-nav a:visited{
 .ladybug-page footer{
     width: 100%;
     padding-bottom: 80px;
-    background-color: none;
+    background-color: white;
+}
+
+.ladybug-page .footer-content{
+    text-align: center;
 }
 
 /* Mantis Page */
@@ -309,7 +313,7 @@ footer .bottom-nav a:visited{
 
 .mantis-page .instructions{
     width: 100vw;
-    background-color: rgba(155, 190, 96, 1);
+    background-color: rgba(212, 226, 146, 1);
 }
 
 .mantis-page .instructions article{
@@ -332,4 +336,96 @@ footer .bottom-nav a:visited{
     width: 100%;
     padding-bottom: 80px;
     background-color: white;
+}
+
+.mantis-page .footer-content{
+    text-align: center;
+}
+
+/* Red Worm Page */
+
+.worm-page .about{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.worm-page .about .left{
+    flex: 1;
+}
+
+.worm-page .about .right{
+    flex: 2;
+}
+.worm-page .instructions{
+    width: 100vw;
+    background-color: rgba(238, 206, 200, 1);
+}
+.worm-page .instructions article{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.worm-page .release{
+    flex: 2;
+}
+.worm-page .big-image{
+    flex: 1;
+}
+.worm-page .instructions ul{
+    list-style: none;
+}
+
+.worm-page footer{
+    width: 100%;
+    padding-bottom: 80px;
+    background-color: white;
+}
+
+.worm-page .footer-content{
+    text-align: center;
+}
+
+/* Lacewing Page */
+
+.lacewing-page .about{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.lacewing-page .about .left .right{
+    flex: 1;
+}
+
+.lacewing-page .instructions{
+    width: 100vw;
+    background-color: rgba(212, 226, 146, 1);
+}
+
+.lacewing-page .instructions article{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.lacewing-page .release{
+    flex: 1;
+}
+.lacewing-page .big-image{
+    flex: 2;
+}
+.lacewing-page .instructions ul{
+    list-style: none;
+}
+
+.lacewing-page footer{
+    width: 100%;
+    padding-bottom: 80px;
+    background-color: white;
+}
+
+.lacewing-page .footer-content{
+    text-align: center;
 }
