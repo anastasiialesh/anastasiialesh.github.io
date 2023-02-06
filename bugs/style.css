@@ -71,7 +71,7 @@ h3{
     width: 40px;
     height: 4px;
     line-height: 70px;
-    background: #fff;
+    background: rgba(213, 130, 116, 1);
     border-radius: 5px;
     position: absolute;
     top: 50%;
@@ -303,6 +303,33 @@ footer .bottom-nav a:visited{
     display: flex;
 }
 
-.mantis-page .left .right{
+.mantis-page .about .left .right{
     flex: 1;
+}
+
+.mantis-page .instructions{
+    width: 100vw;
+    background-color: rgba(155, 190, 96, 1);
+}
+
+.mantis-page .instructions article{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.mantis-page .release{
+    flex: 1;
+}
+.mantis-page .big-image{
+    flex: 2;
+}
+.mantis-page .instructions ul{
+    list-style: none;
+}
+
+.mantis-page footer{
+    width: 100%;
+    padding-bottom: 80px;
+    background-color: white;
 }
