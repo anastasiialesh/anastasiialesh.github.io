@@ -166,6 +166,7 @@ header{
     border-bottom: 1px solid rgba(51,51,51,1);
 }
 header .logo{
+    margin-left: 5%;
     width: 200px;
     height: auto;
 }
@@ -295,8 +296,13 @@ footer .bottom-nav a:visited{
     flex: 1;
 }
 
+.ladybug-page .release{
+    padding: 200px;
+    justify-content: center;
+}
 .instructions ul{
     list-style: none;
+    padding-left: 0;
 }
 
 .ladybug-page footer{
@@ -341,9 +347,11 @@ footer .bottom-nav a:visited{
 }
 .mantis-page .instructions ul{
     list-style: none;
+    padding-left: 0;
 }
 
 .mantis-page footer{
+    padding-top: 100px;
     width: 100%;
     padding-bottom: 80px;
     background-color: white;
@@ -386,10 +394,12 @@ footer .bottom-nav a:visited{
 }
 .worm-page .instructions ul{
     list-style: none;
+    padding-left: 0;
 }
 
 .worm-page footer{
     width: 100%;
+    padding-top: 100px;
     padding-bottom: 80px;
     background-color: white;
 }
@@ -429,10 +439,12 @@ footer .bottom-nav a:visited{
 }
 .lacewing-page .instructions ul{
     list-style: none;
+    padding-left: 0;
 }
 
 .lacewing-page footer{
     width: 100%;
+    padding-top: 100px;
     padding-bottom: 80px;
     background-color: white;
 }
