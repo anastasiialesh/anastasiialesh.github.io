@@ -314,6 +314,11 @@ footer .bottom-nav a:visited{
 
 .ladybug-page .footer-content{
     text-align: center;
+    
+}
+
+.ladybug-page .footer-content img{
+    display: block;
 }
 
 /* Mantis Page */
@@ -359,6 +364,10 @@ footer .bottom-nav a:visited{
 
 .mantis-page .footer-content{
     text-align: center;
+}
+
+.mantis-page .footer-content img{
+    display: block;
 }
 
 /* Red Worm Page */
@@ -407,6 +416,9 @@ footer .bottom-nav a:visited{
 .worm-page .footer-content{
     text-align: center;
 }
+.worm-page .footer-content img{
+    display: block;
+}
 
 /* Lacewing Page */
 
@@ -451,4 +463,8 @@ footer .bottom-nav a:visited{
 
 .lacewing-page .footer-content{
     text-align: center;
+}
+
+.lacewing-page .footer-content img{
+    display: block;
 }
