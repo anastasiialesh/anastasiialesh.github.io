@@ -167,6 +167,8 @@ header{
 }
 header .logo{
     margin-left: 5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
     width: 200px;
     height: auto;
 }
@@ -294,10 +296,11 @@ footer .bottom-nav a:visited{
 
 .ladybug-page .release, .big-image{
     flex: 1;
+    justify-content: right;
 }
 
 .ladybug-page .release{
-    padding: 200px;
+    padding-top: 200px;
     justify-content: center;
 }
 .instructions ul{
@@ -310,6 +313,7 @@ footer .bottom-nav a:visited{
     width: 100%;
     padding-bottom: 80px;
     background-color: white;
+    justify-content: space-evenly;
 }
 
 .ladybug-page .footer-content{
@@ -346,6 +350,8 @@ footer .bottom-nav a:visited{
 
 .mantis-page .release{
     flex: 1;
+    padding-top: 200px;
+    justify-content: center;
 }
 .mantis-page .big-image{
     flex: 2;
