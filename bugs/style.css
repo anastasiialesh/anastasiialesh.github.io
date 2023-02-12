@@ -219,6 +219,7 @@ header .logo {
   margin-right: 120px;
   margin-top: 50px;
 }
+
 .home-nav .worm-title {
   padding-left: 5px;
   margin-top: -100px;
@@ -228,19 +229,21 @@ header .logo {
   margin-left: -10%;
 }
 .home-nav .left .worm {
-  margin-top: -10%;
-  margin-left: 3%;
+  margin-top: -5%;
+  margin-right: 18%;
 }
 
 .home-nav .right .ladybug {
-  margin-top: 15%;
+  margin-top: 5%;
   margin-left: -25%;
-
+  transition: transfrom .2s;
 }
-
+.home-nav .ladybug:hover{
+  transform: scale(1.2);
+}
 .home-nav .right .lacewing {
   margin-top: -5%;
-  margin-left: -10%;
+  margin-left: -30%;
 }
 
 .home-sub-nav div {
@@ -321,7 +324,12 @@ footer .bottom-nav a:visited {
 }
 .ladybug-page .about .lb-image{
   scale: 1.5;
+  transition: transform .2s;
   margin-top: -10%;
+}
+
+.lb-image:hover{
+  transform: scale(1.6);
 }
 
 .ladybug-right {
@@ -347,6 +355,12 @@ footer .bottom-nav a:visited {
 .ladybug-page .instructions article {
   width: 65%;
   margin: 0;
+}
+
+.ladybug-page .instructions .learn-more{
+  justify-content: center;
+  scale: .15;
+  margin-top: -80%;
 }
 
 .ladybug-page .release {
@@ -378,6 +392,15 @@ footer .bottom-nav a:visited {
 .ladybug-page .footer-content img {
   display: block;
 }
+.ladybug-page .footer-content .small-worm{
+  margin-top: 7%;
+}
+
+.ladybug-page .footer-content .small-mantis{
+  margin-top: 7%;
+}
+
+
 
 
 
@@ -454,6 +477,15 @@ footer .bottom-nav a:visited {
   display: block;
 }
 
+.mantis-page .footer-content .small-lwg{
+  margin-top: 5%;
+}
+
+.mantis-page .footer-content .small-worm{
+  margin-top: 15%;
+}
+
+
 
 
 
@@ -467,13 +499,25 @@ footer .bottom-nav a:visited {
 }
 
 .worm-page .about .left {
-  flex: 1;
-}
-
-.worm-page .about .right {
   flex: 2;
   text-align: left;
 }
+
+.worm-page .about .right {
+  flex: 1;
+  text-align: left;
+  margin-top: 5%;
+}
+
+.worm-page .about .big-worm{
+  rotate: 35deg;
+  scale: 1.3;
+}
+
+.worm-page .about .worm-target{
+  padding-top: 30%;
+}
+
 .worm-page .instructions {
   width: 100vw;
   background-color: rgba(238, 206, 200, 1);
@@ -603,4 +647,12 @@ footer .bottom-nav a:visited {
 
 .lacewing-page .footer-content img {
   display: block;
+}
+
+.lacewing-page .footer-content .small-worm{
+  margin-top: 14%;
+}
+
+.lacewing-page .footer-content .small-mantis{
+  margin-top: 14%;
 }
