@@ -2,12 +2,16 @@
 
 body{
     font-family: 'Lora', serif;
-    margin: 8px;
+    margin: 5% 10%;
 }
 h1 {
     color:darkolivegreen;
     font-size: 55px;
     font-family: 'Dela Gothic One', cursive;
+}
+h2{
+    font-family: 'Lora', serif;
+    font-size: 28px;
 }
 .journal-page h1{
     color: coral;
@@ -19,3 +23,6 @@ img {
     width: 40%;
 }
 
+.post{
+    padding-bottom: 5%;
+}
