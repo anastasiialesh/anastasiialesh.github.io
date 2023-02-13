@@ -246,10 +246,11 @@ header .logo {
 
 .home-nav .element-mantis{
   position: absolute;
+  z-index: 10;
   scale: .1;
   rotate: 99deg;
-  margin-left: -45%;
-  margin-top: 20%;
+  margin-left: -40%;
+  margin-top: 21%;
   transform: scale(.8,.8);
   animation: jiggle 0.5s infinite linear;
 }
@@ -337,6 +338,15 @@ header .logo {
   margin-top: -55px;
   flex: 1;
 }
+.home-page .about .column{
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 .about .ladybug-wings {
   width: 30%;
   margin: auto;
@@ -380,7 +390,21 @@ footer .bottom-nav a:visited {
 
 /* Ladybug Page */
 
+.ladybug-page .element-lb-1{
+  position: absolute;
+  scale: .1;
+  rotate: -120deg;
+  margin-top: -5%;
+  margin-left: -8%;
+}
 
+.ladybug-page .element-lb-2{
+  position: absolute;
+  scale: .1;
+  rotate: 45deg;
+  margin-top: 45%;
+  margin-left: 3%;
+}
 
 .ladybug-page .about {
   width: 80%;
@@ -396,7 +420,7 @@ footer .bottom-nav a:visited {
   margin-top: 30%;
 }
 .ladybug-page .about .lb-image{
-  scale: 1.5;
+  scale: 1.2;
   transition: transform .2s;
   margin-top: -10%;
 }
@@ -432,7 +456,7 @@ footer .bottom-nav a:visited {
 
 
 .ladybug-page .instructions article .learn-more{
-  margin-bottom: -60%;
+  margin-bottom: -65%;
   justify-content: center;
   scale: .15;
   margin-top: -80%;
@@ -489,21 +513,25 @@ footer .bottom-nav a:visited {
   display: flex;
 }
 
+.mantis-page h1{
+  padding-left: 9%;
+}
+
 .mantis-page .about .left {
   flex: 1;
   text-align: left;
+  margin-top: -3%;
 }
 
 .mantis-page .about .right{
   flex: 2;
-  margin-top: 25%;
   margin-left: 5%;
   scale: 1.2;
 }
 .mantis-page .about-two{
   display: flex;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-bottom: 4%;
 }
 .about-two .wings .mantis-target{
   flex: 1;
@@ -526,6 +554,13 @@ footer .bottom-nav a:visited {
 .mantis-page .instructions article {
   width: 65%;
   margin: 0;
+}
+
+.mantis-page .instructions article .learn-more{
+  margin-bottom: -65%;
+  justify-content: center;
+  scale: .15;
+  margin-top: -80%;
 }
 
 .mantis-page .release {
@@ -582,7 +617,7 @@ footer .bottom-nav a:visited {
 .worm-page .about .right {
   flex: 1;
   text-align: left;
-  margin-top: 5%;
+  margin-top: 6%;
 }
 
 .worm-page .about .big-worm{
@@ -591,7 +626,7 @@ footer .bottom-nav a:visited {
 }
 
 .worm-page .about .worm-target{
-  padding-top: 30%;
+  padding-top: 10%;
 }
 
 .worm-page .instructions {
@@ -606,6 +641,13 @@ footer .bottom-nav a:visited {
 .worm-page .instructions article {
   width: 65%;
   margin: 0;
+}
+
+.worm-page .instructions article .learn-more{
+  margin-bottom: -65%;
+  justify-content: center;
+  scale: .15;
+  margin-top: -80%;
 }
 
 .worm-page .release {
@@ -649,6 +691,10 @@ footer .bottom-nav a:visited {
 
 /* Lacewing Page */
 
+.lacewing-page h1{
+  padding-left: 9%;
+}
+
 .lacewing-page .about {
   width: 80%;
   margin: auto;
@@ -662,18 +708,19 @@ footer .bottom-nav a:visited {
 .lacewing-page .about .left{
   flex: 1;
   text-align: left;
+  margin-top: -3%;
 }
 
 .lacewing-page .about .right{
   flex: 2;
-  margin-top: 25%;
+  margin-top: 1%;
   margin-left: -30%;
   scale: 1.3;
 }
 
 .lacewing-page .about-two{
   display: flex;
-  padding-top: 5%;
+  padding-top: 3%;
   padding-bottom: 10%;
 }
 
@@ -703,6 +750,13 @@ footer .bottom-nav a:visited {
 .lacewing-page .release {
   padding: 150px;
   justify-content: center;
+}
+
+.lacewing-page .instructions article .learn-more{
+  margin-bottom: -65%;
+  justify-content: center;
+  scale: .15;
+  margin-top: -80%;
 }
 
 .lacewing-page .instructions ul {
