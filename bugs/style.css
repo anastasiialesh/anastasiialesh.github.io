@@ -214,36 +214,63 @@ header .logo {
   display: block;
   font-weight: 800;
 }
-.home-nav .lady-title {
-  text-align: right;
-  margin-right: 120px;
-  margin-top: 50px;
-}
 
+
+.home-nav .mantis-title{
+  margin-top: -25px;
+  margin-right: 20px;
+}
 .home-nav .worm-title {
   padding-left: 5px;
   margin-top: -100px;
 }
-.home-nav .left .mantis {
-  margin-top: 5%;
-  margin-left: -8%;
+.home-nav .lady-title {
+  margin-left: 190px;
+  margin-top: -50px;
 }
+.home-nav .lacewing-title {
+  margin-top: -20px;
+}
+
+
+
+
+.home-nav .left .mantis {
+  margin-top: 2%;
+  margin-left: -8%;
+  transition: transfrom .2s;
+}
+.home-nav .mantis:hover{
+  transform: scale(1.1);
+}
+
+
 .home-nav .left .worm {
-  margin-top: -4%;
-  margin-right: 6%;
+  margin-top: -20%;
+  margin-right: 3%;
+  transition: transfrom .2s;
+}
+.home-nav .worm:hover{
+  transform: scale(1.1);
 }
 
 .home-nav .right .ladybug {
-  margin-top: 5%;
-  margin-left: -25%;
+  margin-top: 15%;
+  margin-left: -20%;
   transition: transfrom .2s;
 }
 .home-nav .ladybug:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
+
+
 .home-nav .right .lacewing {
-  margin-top: -5%;
-  margin-right: -10%;
+  margin-top: -2%;
+  margin-left: -15%;
+  transition: transfrom .2s;
+}
+.home-nav .lacewing:hover{
+  transform: scale(1.1);
 }
 
 .home-sub-nav div {
