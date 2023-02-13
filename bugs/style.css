@@ -215,6 +215,50 @@ header .logo {
   font-weight: 800;
 }
 
+.home-nav .element-lb{
+  position: absolute;
+  scale: .1;
+  rotate: 130deg;
+  margin-top: -16%;
+  margin-left: 15%;
+  transform: scale(.8,.8);
+  animation: jiggle 0.5s infinite linear;
+}
+.home-nav .element-lwg{
+  position: absolute;
+  scale: .1;
+  rotate: 45deg;
+  margin-top: 37%;
+  margin-left: 18%;
+  transform: scale(.8,.8);
+  animation: jiggle 0.5s infinite linear;
+}
+
+.home-nav .element-worm{
+  position: absolute;
+  scale: .1;
+  rotate: -155deg;
+  margin-top: 8%;
+  margin-left: 6%;
+  transform: scale(.8,.8);
+  animation: jiggle 0.5s infinite linear;
+}
+
+.home-nav .element-mantis{
+  position: absolute;
+  scale: .1;
+  rotate: 99deg;
+  margin-left: -45%;
+  margin-top: 20%;
+  transform: scale(.8,.8);
+  animation: jiggle 0.5s infinite linear;
+}
+
+@keyframes jiggle {
+0% {transform: rotate(0deg) scale(.8,.8);}
+50% {transform: rotate(3deg) scale(.8,.8);}
+100% {transform: rotate(-3deg) scale(.8,.8)}
+}
 
 .home-nav .mantis-title{
   margin-top: -25px;
@@ -236,8 +280,8 @@ header .logo {
 
 
 .home-nav .left .mantis {
-  margin-top: 2%;
-  margin-left: -8%;
+  margin-top: 4%;
+  margin-left: -10%;
   transition: transfrom .2s;
 }
 .home-nav .mantis:hover{
@@ -246,8 +290,8 @@ header .logo {
 
 
 .home-nav .left .worm {
-  margin-top: -20%;
-  margin-right: 3%;
+  margin-top: -18%;
+  margin-right: 10%;
   transition: transfrom .2s;
 }
 .home-nav .worm:hover{
@@ -336,6 +380,8 @@ footer .bottom-nav a:visited {
 
 /* Ladybug Page */
 
+
+
 .ladybug-page .about {
   width: 80%;
   margin: auto;
@@ -356,7 +402,7 @@ footer .bottom-nav a:visited {
 }
 
 .lb-image:hover{
-  transform: scale(1.6);
+  transform: scale(1.4);
 }
 
 .ladybug-right {
@@ -384,11 +430,14 @@ footer .bottom-nav a:visited {
   margin: 0;
 }
 
-.ladybug-page .instructions .learn-more{
+
+.ladybug-page .instructions article .learn-more{
+  margin-bottom: -60%;
   justify-content: center;
   scale: .15;
   margin-top: -80%;
 }
+
 
 .ladybug-page .release {
   padding: 150px;
