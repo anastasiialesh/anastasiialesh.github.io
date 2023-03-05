@@ -1,0 +1,211 @@
+@import url("https://use.typekit.net/kvq8bjc.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+  }
+
+img {
+    width: 100%;
+  }
+
+/*Colors
+purple: #785EA8
+lilac: #D0C0EE
+green: #8BB814
+light green: #D7E9A9
+orange: #F66C11
+light orange: #FEC5A0
+text gray: #363636
+*/
+
+h1{
+    font-family: 'Tuppence', serif;
+    font-size: 65px;
+    line-height: 75px;
+    color: #363636;
+  }
+
+h2{
+    font-family: 'Tuppence', serif;
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 300;
+    color: #363636;
+  }
+
+h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #363636;
+  }
+
+h4{
+  font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 100;
+    color: white;
+}
+
+p, li{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 100;
+    color: #363636;
+  }
+
+.button {
+    background-color: #F66C11;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+nav {
+    width: 100vw;
+    border-bottom: 1px solid rgba(51, 51, 51, 1);
+  }
+
+header{
+    width: 100vw;
+    background-image: url('images/home-grad.png');
+  }
+
+/* HOME PAGE */
+
+.home-header{
+    width: 80%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+  }
+
+.image-left, .text-right{
+    flex: 1;
+  }
+
+
+.home-header .text-right{
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+/*  FEATURE & CAROUSEL */
+.feature{
+    margin: auto;
+    padding: 20px;
+}
+  .feature .text{
+    text-align: center;
+  }
+  
+  .my-slick {
+    width:100%;
+    margin:auto;
+    background:#D0C0EE;
+  }
+  .slick-initialized .slick-slide {
+    display:flex;
+  }
+  .flex-me .left, .flex-me .right{flex:1;}
+
+  .my-slide img {
+    width: 100%;
+  }
+  
+  .my-slide img {
+    width: 100%;
+  }
+  .my-slide {
+    margin: 0 0;
+  }
+/*  THE END OF FEATURE & CAROUSEL */
+
+
+.about{
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border:3px solid #8BB814;
+    border-radius: 10px;
+    margin-bottom: 10%;
+  }
+
+  .about h2{
+  text-align: center;
+}
+
+  .about-us{
+    display: flex;
+  }
+
+  .about-us .left, .right{
+    flex: 1;
+  }
+
+  .about-us .right{
+    padding-left: 20px;
+  }
+
+.become-member{
+  width: 100%;
+  background-image: url(images/home-green-bg.png);
+  margin-bottom: 10%;
+}
+  .become-member h2{
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .member-info{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+  }
+
+  .member-info .left, .right{
+    flex: 1;
+  }
+  .member-info .right{
+    padding-left: 20px;
+    padding-top: 40px;
+  }
+.newsletter{
+  text-align: center;
+  background-image: url(images/newsletter-bk.png);
+}
+.newsletter .register{
+  padding: 30px;
+}
+
+.newsletter .input{
+  display: block;
+}
+
+footer{
+  background-color: #785EA8;
+}
+
+.footer-content ul{
+  list-style: none;
+  color: white;
+}
