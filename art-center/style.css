@@ -48,10 +48,10 @@ h3{
 
 h4{
   font-family: 'Lato', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 28px;
     font-weight: 100;
-    color: white;
+    color: #785EA8;
 }
 
 p, li{
@@ -88,17 +88,37 @@ header{
 
 /* HOME PAGE */
 
+nav{
+  width: 100vw;
+}
+  nav .pages{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+  nav a{
+  text-decoration: none;
+}
+  nav .pages img{
+    padding-top: 20px;
+  }
 .home-header{
     width: 80%;
     margin: auto;
+    margin-top: 4%;
     padding: 35px;
+    padding-bottom: 70px;
     display: flex;
   }
 
-.image-left, .text-right{
+  .image-left{
     flex: 1;
+    padding-top: 40px;
   }
-
+  .text-right{
+    flex: 2;
+  }
 
 .home-header .text-right{
   padding-top: 40px;
@@ -117,6 +137,7 @@ header{
   .my-slick {
     width:100%;
     margin:auto;
+    padding: auto;
     background:#D0C0EE;
   }
   .slick-initialized .slick-slide {
@@ -127,10 +148,7 @@ header{
   .my-slide img {
     width: 100%;
   }
-  
-  .my-slide img {
-    width: 100%;
-  }
+
   .my-slide {
     margin: 0 0;
   }
@@ -189,12 +207,17 @@ header{
     padding-left: 20px;
     padding-top: 40px;
   }
+
+  .member-info .right li{
+    margin: 1em 0;
+  }
 .newsletter{
   text-align: center;
   background-image: url(images/newsletter-bk.png);
+  margin-bottom: 10%;
 }
 .newsletter .register{
-  padding: 30px;
+  padding: 150px;
 }
 
 .newsletter .input{
@@ -204,8 +227,17 @@ header{
 footer{
   background-color: #785EA8;
 }
+  .footer-content{
+    display: flex;
+  }
+  .footer-content .hours{
+    flex: 2;
+  }
+  .footer-content .location, .links{
+    flex: 1;
+  }
 
-.footer-content ul{
+  .footer-content li{
   list-style: none;
   color: white;
 }
