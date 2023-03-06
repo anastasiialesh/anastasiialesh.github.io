@@ -23,11 +23,35 @@ light orange: #FEC5A0
 text gray: #363636
 */
 
-h1 {
+h1{
   font-family: 'Tuppence', serif;
   font-size: 65px;
   line-height: 75px;
   color: #363636;
+}
+
+h2{
+  font-family: 'Tuppence', serif;
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 300;
+  color: #363636;
+}
+
+h3{
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  line-height: 45px;
+  font-weight: 700;
+  color: #363636;
+}
+
+h4{
+font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 100;
+  color: #785EA8;
 }
 h5{
   font-family: 'Lato', sans-serif;
@@ -165,34 +189,6 @@ nav a {
   margin: 50px;
 }
 
-/* 
-.my-slick {
-  width: 110vw;
-  margin: auto;
-  margin-left:-5vw;
-  padding: auto;
-}
-.slick-initialized .slick-slide {
-  display: flex;
-}
-.flex-me .left,
-.flex-me .right {
-  flex: 1;
-}
-
-.my-slide {
-  background: #d0c0ee;
-  padding: 20px;
-  border-radius: 12px;
-}
-.my-slide img {
-  width: 100%;
-}
-
-.my-slide {
-  margin: 0 0;
-} */
-/*  THE END OF FEATURE & CAROUSEL */
 
 .about {
   width: 80%;
