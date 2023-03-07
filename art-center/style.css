@@ -45,7 +45,7 @@ h3{
   font-weight: 700;
   color: #363636;
 }
-
+/*for nav*/
 h4{
 font-family: 'Lato', sans-serif;
   font-size: 20px;
@@ -53,12 +53,14 @@ font-family: 'Lato', sans-serif;
   font-weight: 100;
   color: #785EA8;
 }
+/* footer text*/
 h5{
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   line-height: 20px;
   font-weight: lighter;
 }
+/*footer copyright*/
 h6{
   font-family: 'Lato', sans-serif;
   font-weight: lighter;
@@ -90,7 +92,7 @@ p, li{
 
 nav {
   width: 100vw;
-  border-bottom: 1px solid rgba(51, 51, 51, 1);
+  border-bottom: 1px solid #363636;
 }
 
 header {
@@ -141,7 +143,8 @@ nav a {
 /*  FEATURE & CAROUSEL */
 .feature {
   margin: auto;
-  padding: 20px;
+  padding-top: 20px;
+  margin-bottom: 10%;
 }
 .feature .text {
   text-align: center;
@@ -163,25 +166,23 @@ nav a {
   flex-wrap: nowrap;
 }
 
-  .about-us .right{
-    padding-left: 20px;
-    padding-top: 35px;
-  }
+
 .flex-me .right {
-  flex: 50%;
+  flex: 60%;
 }
 .flex-me .left {
-  flex: 50%;
-  padding-right: 60px;
+  flex: 40%;
+  padding-left: 40px;
 }
 .my-slide img {
   width: auto;
+
 }
 
 .my-slide {
   margin: 0 0;
   background: #d0c0ee;
-  border-radius: 12px;
+  border-radius: 10px;
   padding: 40px;
 }
 
@@ -190,6 +191,11 @@ nav a {
 }
 
 
+
+.about-us .right{
+  padding-left: 20px;
+  padding-top: 35px;
+}
 .about {
   width: 80%;
   margin: auto;

@@ -7,7 +7,7 @@ $(function () {
     infinite: true,
     speed: 900,
     arrows: true,
-    slidesToShow: 2,
+    slidesToShow: 1,
     centerMode: true,
     slidesToScroll: 1,
     autoplay: true,
