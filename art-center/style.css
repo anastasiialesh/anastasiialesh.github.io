@@ -96,10 +96,6 @@ nav {
   border-bottom: 1px solid #363636;
 }
 
-header {
-  width: 100vw;
-  background-image: url('images/home-grad.png');
-}
 
 /* HOME PAGE */
 
@@ -119,27 +115,33 @@ nav a {
   nav .pages .search{
     padding-top: 25px;
   }
-.home-header{
-    width: 80%;
-    margin: auto;
-    margin-top: 4%;
-    padding: 35px;
-    padding-bottom: 70px;
-    display: flex;
+
+header {
+    width: 100vw;
+    background-image: url('images/home-grad.png');
   }
 
-.image-left {
-  flex: 1;
-  padding-top: 40px;
-}
-.text-right {
-  flex: 2;
-}
+  .home-header{
+      width: 80%;
+      margin: auto;
+      margin-top: 4%;
+      padding: 35px;
+      padding-bottom: 70px;
+      display: flex;
+    }
 
-.home-header .text-right {
-  padding-top: 40px;
-  padding-left: 40px;
-}
+  .image-left {
+    flex: 1;
+    padding-top: 40px;
+  }
+  .text-right {
+    flex: 2;
+  }
+
+  .home-header .text-right {
+    padding-top: 40px;
+    padding-left: 40px;
+  }
 
 /*  FEATURE & CAROUSEL */
 .feature {
@@ -351,3 +353,29 @@ footer {
     text-align: center;
     padding-bottom: 5px;
   }
+
+
+  /* PAINT BOX PAGE */
+
+  .paintbox-page .header {
+    width: 100vw;
+    background-image: url('images/paintbox-header.png');
+  }
+
+  .paintbox-header{
+    width: 80%;
+    margin: auto;
+    margin-top: 4%;
+    padding: 35px;
+    padding-bottom: 70px;
+    display: flex;
+  }
+
+  .paintbox-header .left, .right{
+    flex: 1;
+  }
+
+  .paintbox-header .right{
+    padding-top: 45px;
+  }
+
