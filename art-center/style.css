@@ -85,6 +85,7 @@ p, li{
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
   }
   .button:hover{
     background-color: #785EA8;
@@ -164,24 +165,28 @@ nav a {
 .slick-initialized .slick-slide {
   display: flex;
   flex-wrap: nowrap;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
-
 
 .flex-me .right {
   flex: 60%;
+  padding-right: 20px;
+  margin-top: -2%;
+}
+.flex-me .right h3{
+  margin-bottom: -2%;
 }
 .flex-me .left {
   flex: 40%;
-  padding-left: 40px;
+  padding-left: 55px;
 }
 .my-slide img {
   width: auto;
-
 }
 
 .my-slide {
   margin: 0 0;
-  background: #d0c0ee;
+  background-image: url(images/feature-bg.png);
   border-radius: 10px;
   padding: 40px;
 }
@@ -192,10 +197,6 @@ nav a {
 
 
 
-.about-us .right{
-  padding-left: 20px;
-  padding-top: 35px;
-}
 .about {
   width: 80%;
   margin: auto;
@@ -204,8 +205,10 @@ nav a {
   padding-right: 50px;
   padding-bottom: 50px;
   border: 3px solid #8bb814;
+  background-color: rgba(215, 233, 160, .5);
   border-radius: 10px;
   margin-bottom: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .about h2 {
@@ -214,6 +217,7 @@ nav a {
 
 .about-us {
   display: flex;
+  
 }
 
 .about-us .left,
@@ -221,13 +225,15 @@ nav a {
   flex: 1;
 }
 
-.about-us .right {
+.about-us .right{
   padding-left: 20px;
+  padding-top: 35px;
 }
 
 .become-member {
   width: 100%;
-  background-image: url(images/home-green-bg.png);
+  background-image: url(images/home-member.png);
+  padding-bottom: 40px;
   margin-bottom: 10%;
 }
 .become-member h2 {
@@ -249,15 +255,21 @@ nav a {
     flex: 2;
   }
   .member-info .right{
-    padding-left: 30px;
+    padding-left: 50px;
     padding-top: 40px;
   }
   .member-info .right .button{
     margin-top: 4%;
   }
+
   .member-info .right li{
     margin: 1em 0;
+    padding-left: 20px;
+    list-style-image: url(images/purple-circle.png);
   }
+
+
+
 .newsletter{
   text-align: center;
   background-image: url(images/newsletter-bk.png);
