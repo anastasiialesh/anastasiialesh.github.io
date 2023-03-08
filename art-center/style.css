@@ -109,6 +109,9 @@ nav {
 nav a {
   text-decoration: none;
 }
+nav a:hover{
+  color: #F66C11;
+}
   nav .pages img{
     padding-top: 20px;
   }
@@ -431,6 +434,10 @@ footer {
     border: 3px solid #D0C0EE;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  }
+
+  .paintbox-page .promo .button{
+    margin-top: 8%;
   }
 
  .newsletter-box{
