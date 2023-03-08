@@ -116,7 +116,7 @@ nav a {
     padding-top: 25px;
   }
 
-header {
+.home-page header {
     width: 100vw;
     background-image: url('images/home-grad.png');
   }
@@ -357,9 +357,10 @@ footer {
 
   /* PAINT BOX PAGE */
 
-  .paintbox-page .header {
+.paintbox-page header {
     width: 100vw;
     background-image: url('images/paintbox-header.png');
+    margin-bottom: 5%;
   }
 
   .paintbox-header{
@@ -371,11 +372,182 @@ footer {
     display: flex;
   }
 
-  .paintbox-header .left, .right{
+  .paintbox-header .left{
+    flex: 60%;
+  }
+
+
+.border-bottom{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #363636;
+
+}
+
+  .paintbox-header .right{
+    flex: 40%;
+    padding-top: 75px;
+
+  }
+
+.paintbox-page .info{
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+  .paintbox-page .info h2{
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .paintbox-page .info-content{
+    display: flex;
+  }
+
+  .paintbox-page .info-content .left, .right{
     flex: 1;
   }
 
-  .paintbox-header .right{
-    padding-top: 45px;
+  .paintbox-page .info-content .left{
+    padding-right: 90px;
+  }
+
+  .paintbox-page .info-content p{
+    padding-bottom: 60px;
+  }
+
+  .paintbox-page .info-content img{
+    padding-top: 20px;
+  }
+
+  .paintbox-page .info-content .right p{
+    padding-top: 60px;
+  }
+
+  .paintbox-page .info-content .promo{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 30px;
+    border: 3px solid #D0C0EE;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  }
+
+ .newsletter-box{
+  width: 35%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  background-image: url(images/message.png);
+  background-position: 90%;
+  background-repeat: no-repeat;
+  border: 1px solid #D0C0EE;;
+  border-radius: 10px;
+}
+
+  .newsletter-box h5{
+    margin: 10px 0px;
+  }
+
+
+/* EVENTS PAGE*/
+
+.events-page header {
+  width: 100vw;
+  background-image: url('images/event-bg.png');
+  margin-bottom: 5%;
+}
+
+  .events-header{
+    width: 80%;
+    margin: auto;
+    margin-top: 4%;
+    padding: 35px;
+    padding-bottom: 70px;
+    display: flex;
+  }
+
+  .events-header .left, .right{
+    flex: 1;
+    padding-top: 40px;
+  }
+
+  .events-header .left{
+    padding-right: 60px;
+  }
+
+  .events-header .right{
+    padding-top: 70px;
+  }
+
+.events-page .info{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+    .events-page .info h2{
+      text-align: center;
+      padding-bottom: 50px;
+    }
+  .events-page .info-content{
+  display: flex;
+  flex-direction: column;
+  }
+
+  .info-content .color{
+  color: #785EA8;
+  }
+
+  .event-one{
+    display: flex;
+    margin-bottom: 10%;
+  }
+  .event-one .left, .right{
+    flex: 1;
+  }
+  .event-one .right{
+    margin-top: -8%;
+    padding-left: 40px;
+  }
+  .event-one .right .button{
+    margin-top: 5%;
+  }
+
+  .info-content .right h3{
+    margin-bottom: -10px;
+  }
+
+  
+
+
+  .event-two{
+    display: flex;
+    margin-bottom: 10%;
+  }
+  .event-two .left, .right{
+    flex: 1;
+  }
+  .event-two .right{
+    margin-top: -8%;
+    padding-left: 40px;
+  }
+  .event-two .right .button{
+    margin-top: 2%;
+  }
+
+
+
+
+  .event-three{
+    display: flex;
+    margin-bottom: 10%;
+  }
+  .event-three .left, .right{
+    flex: 1;
+  }
+  .event-three .right{
+    margin-top: -8%;
+    padding-left: 40px;
   }
 
