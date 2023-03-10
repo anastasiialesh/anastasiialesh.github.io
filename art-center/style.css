@@ -482,7 +482,7 @@ footer {
 
   .events-header .left, .right{
     flex: 1;
-    padding-top: 40px;
+    padding-top: 70px;
   }
 
   .events-header .left{
@@ -490,7 +490,7 @@ footer {
   }
 
   .events-header .right{
-    padding-top: 70px;
+    margin-top: 5%;
   }
 
 .events-page .info{
@@ -512,57 +512,52 @@ footer {
   color: #785EA8;
   }
 
-  .event-one{
-    display: flex;
-    margin-bottom: 10%;
-  }
-  .event-one .left, .right{
-    flex: 1;
-  }
-  .event-one .right{
-    margin-top: -8%;
-    padding-left: 40px;
-  }
-  .event-one .right .button{
-    margin-top: 5%;
-  }
-
   .info-content .right h3{
     margin-bottom: -10px;
   }
 
+  .event-one{
+    display: flex;
+    margin-bottom: 10%;
+  }
+    .event-one .left, .right{
+      flex: 1;
+    }
+    .event-one .right{
+      margin-top: -8%;
+      padding-left: 40px;
+    }
+    .event-one .right .button{
+      margin-top: 5%;
+    }
+
   
-
-
   .event-two{
     display: flex;
     margin-bottom: 10%;
   }
-  .event-two .left, .right{
-    flex: 1;
-  }
-  .event-two .right{
-    margin-top: -8%;
-    padding-left: 40px;
-  }
-  .event-two .right .button{
-    margin-top: 2%;
-  }
-
-
-
+    .event-two .left, .right{
+      flex: 1;
+    }
+    .event-two .right{
+      margin-top: -8%;
+      padding-left: 40px;
+    }
+    .event-two .right .button{
+      margin-top: 2%;
+    }
 
   .event-three{
     display: flex;
     margin-bottom: 10%;
   }
-  .event-three .left, .right{
-    flex: 1;
-  }
-  .event-three .right{
-    margin-top: -8%;
-    padding-left: 40px;
-  }
+    .event-three .left, .right{
+      flex: 1;
+    }
+    .event-three .right{
+      margin-top: -8%;
+      padding-left: 40px;
+    }
 
 /* ABOUT PAGE */
 
@@ -629,3 +624,102 @@ footer {
     .about-page .info-two .left img{
       padding-top: 70px;
     }
+
+
+/*  GET INVOLVED PAGE */
+
+.involve-page header {
+  width: 100vw;
+  background-image: url('images/home-grad.png');
+}
+
+  .involve-header{
+      width: 80%;
+      margin: auto;
+      margin-top: 4%;
+      padding: 35px;
+      padding-bottom: 70px;
+      display: flex;
+  }
+
+  .involve-header .left, .right{
+    flex: 1;
+  }
+    .involve-header .left{
+      padding-top: 170px;
+    }
+
+
+.help-tabs {
+      width:80%;
+      margin:80px auto;
+      display:flex;
+      flex-wrap:wrap;
+  }
+  .volunteer-tab, .member-tab {
+      flex:50%;
+  }
+  .member-content, .volunteer-content {
+      flex: 100%;
+  }
+  .volunteer-tab {
+      position:relative;
+      background: #fff;
+      padding:50px;
+      border-radius: 10px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .member-tab {
+      position:relative;
+      height: 200px;
+      border-radius: 10px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      background: #FEC5A0;
+  }
+  .member-tab h2, .volunteer-tab h2 {
+      position: absolute;
+      z-index:99;
+      top:20px; 
+      left:60px;
+      bottom: 10px;
+  }
+  .member-tab h2{
+    border-bottom: 1px solid #363636;
+  }
+  .member-content {
+    display: flex;
+      padding:60px;
+      border-radius: 10px;
+      border-top-left-radius: 0px;
+      background: #FEC5A0;
+  }
+      .member-content .left, .right{
+        flex: 1;
+      }
+
+        .member-content .right{
+          padding-left: 60px;
+        }
+
+
+  .volunteer-content {
+    display: flex;
+      background: #D7E9A9;
+      padding:60px;
+      border-radius: 10px;
+      border-top-right-radius: 0px;
+  }
+      .volunteer-content .left, .right{
+        flex: 1;
+      }
+
+      .volunteer-content .left{
+        padding-right: 90px;
+      }
+
+
+  .hide {
+      display:none;
+  }

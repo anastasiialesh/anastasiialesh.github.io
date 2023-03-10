@@ -59,3 +59,24 @@ $(document).ready(function(){
     autoplaySpeed: 2000,
   });
 });
+
+$('.volunteer-tab h2').click(function() {
+  $('.volunteer-content').toggleClass('hide')
+  $('.volunteer-tab').css(
+      'background', '#D7E9A9'
+  )
+  $('.member-tab').css(
+      'background', '#fff'
+  )
+  $('.member-content').toggleClass('hide')
+})
+$('.member-tab h2').click(function() {
+  $('.volunteer-content').toggleClass('hide')
+  $('.member-tab').css(
+      'background', '#FEC5A0' 
+  )
+  $('.volunteer-tab').css(
+      'background', '#fff'
+  )
+  $('.member-content').toggleClass('hide')
+})
