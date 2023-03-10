@@ -48,3 +48,14 @@ $(function () {
 
   // End of Your Code . Don't delete that line below!!
 })
+
+$(document).ready(function(){
+  $('.slideshow').slick({
+    dots: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  });
+});
