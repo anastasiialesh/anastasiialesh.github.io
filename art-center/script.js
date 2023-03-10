@@ -11,13 +11,14 @@ $(function () {
     centerMode: true,
     slidesToScroll: 1,
     autoplay: true,
+  
     autoplaySpeed: 1500,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           centerMode: true,
-          slidesToShow: 3,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
           dots: true
@@ -27,7 +28,7 @@ $(function () {
         breakpoint: 600,
         settings: {
           centerMode: true,
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1
         }
       },
