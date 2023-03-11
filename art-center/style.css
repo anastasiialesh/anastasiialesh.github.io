@@ -216,22 +216,28 @@ nav a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
+.about .button{
+  padding-top: 20px;
+}
+
 .about h2 {
   text-align: center;
 }
 
 .about-us {
   display: flex;
-  
+  margin-top: -2%;
 }
 
 .about-us .left,
 .right {
   flex: 1;
 }
-
+.about-us .left p{
+  padding-bottom: 20px;
+}
 .about-us .right{
-  padding-left: 20px;
+  padding-left: 35px;
   padding-top: 35px;
 }
 
@@ -417,13 +423,15 @@ footer {
   .paintbox-page .info-content .left{
     padding-right: 90px;
   }
-
+  .paintbox-page .info-content .left img{
+      margin-top: -2px;
+    }
   .paintbox-page .info-content p{
     padding-bottom: 60px;
   }
 
   .paintbox-page .info-content img{
-    padding-top: 20px;
+    padding-top: 10px;
   }
 
   .paintbox-page .info-content .right p{
@@ -453,6 +461,7 @@ footer {
   background-repeat: no-repeat;
   border: 1px solid #D0C0EE;;
   border-radius: 10px;
+  margin-bottom: 4%;
 }
 
   .newsletter-box h5{
@@ -497,7 +506,7 @@ footer {
     width: 80%;
     margin: auto;
     margin-top: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
     .events-page .info h2{
       text-align: center;
@@ -513,6 +522,7 @@ footer {
   }
 
   .info-content .right h3{
+    margin-top: 15px;
     margin-bottom: -10px;
   }
 
@@ -558,6 +568,8 @@ footer {
       margin-top: -8%;
       padding-left: 40px;
     }
+
+
 
 /* ABOUT PAGE */
 
@@ -626,6 +638,8 @@ footer {
     }
 
 
+
+    
 /*  GET INVOLVED PAGE */
 
 .involve-page header {
@@ -698,12 +712,21 @@ footer {
       .member-content .left, .right{
         flex: 1;
       }
-
         .member-content .right{
           padding-left: 60px;
+          margin-top: -15px;
         }
-
-
+        .member-content .left h3, .volunteer-content .right h3{
+          padding-bottom: 10px;
+        }
+        .member-content .left li{
+          margin: 1em 0;
+          padding-left: 20px;
+          list-style-image: url(images/orange-circle.png);
+        }
+        .member-content .left{
+          padding-left: 20px;
+        }
   .volunteer-content {
     display: flex;
       background: #D7E9A9;
@@ -714,12 +737,64 @@ footer {
       .volunteer-content .left, .right{
         flex: 1;
       }
-
       .volunteer-content .left{
         padding-right: 90px;
+        padding-left: 20px;
       }
 
+.volunteer-content .right .button, .member-content .left .button{
+  margin-top: 12%;
+}
 
   .hide {
       display:none;
+  }
+
+
+.involve-page .levels{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding-bottom: 40px;
+  }
+  .levels .left{
+      flex: 40%;
+      padding-top: 20px;
+      padding-right: 60px;
+    }
+    .levels .left img{
+      padding-top: 80px;
+    }
+  .levels .right{
+      flex: 60%;
+    }
+    .levels .left li{
+      margin: 1em 0;
+    }
+  .involve-page .sponsor{
+        display: flex;
+        padding-top: 40px;
+      }
+    .sponsor .s-left{
+          flex: 50%;
+        }
+    .sponsor .s-right{
+          flex: 50%;
+          padding-top: 100px;
+        }
+        .sponsor li{
+          margin: 1em 0;
+        }
+.levels p{
+          text-align: center;
+        }
+
+.involve-page .note{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+  .note p{
+    font-size: 18px;
+    line-height: normal;
   }
