@@ -11,7 +11,7 @@ $(function () {
     centerMode: true,
     slidesToScroll: 1,
     autoplay: true,
-  
+
     autoplaySpeed: 2000,
     responsive: [
       {
@@ -29,7 +29,8 @@ $(function () {
         settings: {
           centerMode: true,
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          arrows: false
         }
       },
       {
@@ -49,84 +50,76 @@ $(function () {
   // End of Your Code . Don't delete that line below!!
 })
 
-$(document).ready(function(){
+$(document).ready(function () {
   $('.slideshow').slick({
     dots: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     adaptiveHeight: true,
     autoplay: true,
-    autoplaySpeed: 2000,
-  });
-});
+    autoplaySpeed: 2000
+  })
+})
 
-$('.volunteer-tab h2').click(function() {
+$('.volunteer-tab h2').click(function () {
   $('.volunteer-content').toggleClass('hide')
-  $('.volunteer-tab').css(
-      'background', '#D7E9A9'
-  )
-  $('.member-tab').css(
-      'background', '#fff'
-  )
+  $('.volunteer-tab').css('background', '#D7E9A9')
+  $('.member-tab').css('background', '#fff')
   $('.member-content').toggleClass('hide')
 })
-$('.member-tab h2').click(function() {
+$('.member-tab h2').click(function () {
   $('.volunteer-content').toggleClass('hide')
-  $('.member-tab').css(
-      'background', '#FEC5A0' 
-  )
-  $('.volunteer-tab').css(
-      'background', '#fff'
-  )
+  $('.member-tab').css('background', '#FEC5A0')
+  $('.volunteer-tab').css('background', '#fff')
   $('.member-content').toggleClass('hide')
 })
 
-let timer=0;
-window.addEventListener('load', (event) => {
+let timer = 0
+window.addEventListener('load', event => {
   let intersectionObserver = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        setTimeout(function() { entry.target.classList.add('up'); },timer);
-        timer +=50;
-        intersectionObserver.unobserve(entry.target);
-        setTimeout(function(){ timer = 0;}, 1000)
+        setTimeout(function () {
+          entry.target.classList.add('up')
+        }, timer)
+        timer += 50
+        intersectionObserver.unobserve(entry.target)
+        setTimeout(function () {
+          timer = 0
+        }, 1000)
       }
-    });
-  });
+    })
+  })
 
-  document.querySelectorAll('.animate').forEach(obj =>{
-    intersectionObserver.observe(obj);
-    });
-});
+  document.querySelectorAll('.animate').forEach(obj => {
+    intersectionObserver.observe(obj)
+  })
+})
 
 //Get the button
-let mybutton = document.getElementById("btn-back-to-top");
+let mybutton = document.getElementById('btn-back-to-top')
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
-scrollFunction();
-};
+  scrollFunction()
+}
 
 function scrollFunction() {
-if (
-document.body.scrollTop > 1000 ||
-document.documentElement.scrollTop > 1000
-) {
-mybutton.style.display = "block";
-} else {
-mybutton.style.display = "none";
-}
+  if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+    mybutton.style.display = 'block'
+  } else {
+    mybutton.style.display = 'none'
+  }
 }
 // When the user clicks on the button, scroll to the top of the document
-mybutton.addEventListener("click", backToTop);
+mybutton.addEventListener('click', backToTop)
 
 function backToTop() {
-document.body.scrollTop = 0;
-document.documentElement.scrollTop = 0;
+  document.body.scrollTop = 0
+  document.documentElement.scrollTop = 0
 }
 
-
-'use strict'
+;('use strict')
 
 function toggleIcon() {
   $('.icon').on('click', function () {
@@ -144,4 +137,3 @@ function closeMobileMenu() {
 //when the page loads call toggleIcon;
 $(toggleIcon)
 $(closeMobileMenu)
-
