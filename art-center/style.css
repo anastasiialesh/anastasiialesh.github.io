@@ -721,9 +721,7 @@ footer {
       left:60px;
       bottom: 10px;
   }
-  .member-tab h2{
-    border-bottom: 1px solid #363636;
-  }
+
   .member-content {
     display: flex;
       padding:60px;
@@ -741,10 +739,18 @@ footer {
         .member-content .left h3, .volunteer-content .right h3{
           padding-bottom: 10px;
         }
+        .member-content .benefits{
+          padding-left: 0px;
+        }
         .member-content .left li{
           margin: 1em 0;
           padding-left: 20px;
-          list-style-image: url(images/orange-circle.png);
+          list-style: none;
+          background: url(images/orange-circle.png);
+          background-repeat: no-repeat;
+          background-size: 30px;
+          padding-left: 50px;
+          padding-bottom: 30px;
         }
         .member-content .left{
           padding-left: 20px;
