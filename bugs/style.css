@@ -341,6 +341,9 @@ header .logo {
 .home-page .about .column{
   animation: fadeIn 7s;
 }
+.home-page .one{
+  padding-right: 20px;
+}
 
 @keyframes fadeIn {
   0% { opacity: 0; }
