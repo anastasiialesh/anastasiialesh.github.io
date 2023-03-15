@@ -957,6 +957,9 @@ footer .copyright {
   display: block;
 }
 
+
+
+
 @media screen and (max-width: 768px) {
   #btn-back-to-top {
     z-index: 100;
@@ -1130,9 +1133,6 @@ footer .copyright {
     padding-right: 0;
   }
 
-
-
-
   .involve-header{
     flex-direction: column-reverse;
     text-align: center;
@@ -1209,8 +1209,6 @@ footer .copyright {
   }
   
 
-
-
   .about-page .about-header{
     flex-direction: column;
     text-align: center;
@@ -1238,6 +1236,8 @@ footer .copyright {
   .about-page .info-two .left img{
     padding-top: 10px;
   }
+
+ 
 }
 
 
