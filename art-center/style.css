@@ -1006,7 +1006,7 @@ footer .copyright {
   flex-direction: column;
 }
 .footer-content .hours, .location, .links{
-    padding-left: 0;
+   padding-left: 0;
   }
   .links .ul{
     padding-left: 0;
@@ -1167,6 +1167,9 @@ footer .copyright {
   }
   .member-content .left{
     padding-left: 0;
+  }
+  .member-content .left img{
+    display: none;
   }
   .volunteer-content{
     flex-direction: column;
