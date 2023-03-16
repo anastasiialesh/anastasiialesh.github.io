@@ -1153,15 +1153,19 @@ footer .copyright {
   .involve-page .volunteer-tab h2{
     margin-left: -20px;
   }
+  
   .involve-page h2{
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 25px;
+    line-height: 25px;
   }
   .involve-page .member-content{
     flex-direction: column-reverse;
     text-align: center;
+    padding: 55px;
   }
-  
+  .member-content .volunteer-content h3{
+    font-size: 20px;
+  }
   .involve-page .help-tabs .right{
     padding: 0;
   }
@@ -1209,6 +1213,7 @@ footer .copyright {
     }
   .involve-page .note{
     font-size: 12px;
+    padding-bottom: 20px;
   }
   
 
