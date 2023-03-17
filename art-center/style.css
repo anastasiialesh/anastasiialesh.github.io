@@ -1000,9 +1000,7 @@ footer .copyright {
     font-size: 20px;
     line-height: 28px;
   }
-  h5{
-    font-size: 12px;
-  }
+
 
 
 .footer-content{
@@ -1040,7 +1038,9 @@ footer .copyright {
     background-position: 100%;
     margin-bottom: 10%;
   }
-
+    .newsletter-box h5{
+      font-size: 12px;
+    }
 
   .home-header {
     flex-direction: column;
@@ -1104,7 +1104,7 @@ footer .copyright {
     text-align: center;
   }
   .paintbox-page .border-bottom{
-    display: none;
+    border-bottom: none;
   }
   .paintbox-header h3{
     padding-top: 20px;
@@ -1172,17 +1172,27 @@ footer .copyright {
   }
   .involve-page .member-tab, .volunteer-tab{
     height: 150px;
+    text-align: center;
+
   }
   .involve-page .member-tab h2{
-    margin-left: -20px;
+    margin-left: -15%;
+    margin-right: 15%;
   }
   .involve-page .volunteer-tab h2{
-    margin-left: -20px;
+    margin-left: -15%;
+    margin-right: 15%;
+  }
+
+  .volunteer-tab{
+    padding: 0;
   }
   
   .involve-page h2{
+    text-align: center;
     font-size: 25px;
     line-height: 25px;
+
   }
   .involve-page .member-content{
     flex-direction: column-reverse;
