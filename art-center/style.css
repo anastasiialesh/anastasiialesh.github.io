@@ -1175,15 +1175,13 @@ footer .copyright {
   }
   .involve-page .member-tab, .volunteer-tab{
     height: 150px;
-    text-align: center;
-
   }
   .involve-page .member-tab h2{
-    margin-left: -20%;
+    margin-left: -5%;
     margin-right: 20%;
   }
   .involve-page .volunteer-tab h2{
-    margin-left: -20%;
+    margin-left: -5%;
     margin-right: 20%;
   }
 
@@ -1192,7 +1190,6 @@ footer .copyright {
   }
   
   .involve-page h2{
-    text-align: center;
     font-size: 25px;
     line-height: 25px;
 
