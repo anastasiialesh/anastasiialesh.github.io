@@ -1107,6 +1107,7 @@ footer .copyright {
     border-bottom: none;
   }
   .paintbox-header h3{
+    font-size: 25px;
     padding-top: 20px;
     border-top: 1px solid #363636;
   }
@@ -1176,12 +1177,12 @@ footer .copyright {
 
   }
   .involve-page .member-tab h2{
-    margin-left: -15%;
-    margin-right: 15%;
+    margin-left: -20%;
+    margin-right: 20%;
   }
   .involve-page .volunteer-tab h2{
-    margin-left: -15%;
-    margin-right: 15%;
+    margin-left: -20%;
+    margin-right: 20%;
   }
 
   .volunteer-tab{
