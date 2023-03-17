@@ -1000,6 +1000,9 @@ footer .copyright {
     font-size: 20px;
     line-height: 28px;
   }
+  h5{
+    font-size: 12px;
+  }
 
 
 .footer-content{
@@ -1099,6 +1102,13 @@ footer .copyright {
   .paintbox-header {
     flex-direction: column-reverse;
     text-align: center;
+  }
+  .paintbox-page .border-bottom{
+    display: none;
+  }
+  .paintbox-header h3{
+    padding-top: 20px;
+    border-top: 1px solid #363636;
   }
   .paintbox-page h2{
       margin-bottom: 0;
