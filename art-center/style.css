@@ -1005,15 +1005,31 @@ footer .copyright {
 .footer-content{
   flex-direction: column;
 }
+.footer-content ul{
+  padding-left: 0;
+}
 .footer-content .hours, .location, .links{
-   padding-left: 0;
+   padding-bottom: 30px;
   }
-  .links .ul{
+
+  .button{
+    font-size: 20px;
+  }
+
+  .hours li:first-child, .location li:first-child{
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+  }
+  .location{
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+  }
+  .footer-content .links{
+    padding-top: 10px;
     padding-left: 0;
   }
   .footer-content .links li{
-    text-align: center;
-    padding-right: 95px;
+    padding-right: 75px;
   }
 
   .newsletter-box{
