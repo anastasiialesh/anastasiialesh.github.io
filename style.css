@@ -26,3 +26,9 @@ img {
 .post{
     padding-bottom: 5%;
 }
+a{
+    color: slateblue;
+}
+a:hover{
+    color: salmon;
+}
