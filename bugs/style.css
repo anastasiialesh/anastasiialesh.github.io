@@ -375,7 +375,7 @@ footer .bottom-nav {
   padding: 0;
 }
 
-footer .bottom-nav a:link {
+.footer-content .bottom-nav a {
   color: rgba(213, 130, 116, 1);
   text-decoration: none;
 }
