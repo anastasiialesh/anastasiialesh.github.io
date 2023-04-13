@@ -1,4 +1,9 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lora&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
 
 body{
     font-family: 'Lora', serif;
@@ -12,6 +17,7 @@ h1 {
 h2{
     font-family: 'Lora', serif;
     font-size: 28px;
+    margin-top: 0;
 }
 .journal-page h1{
     color: coral;
@@ -24,11 +30,37 @@ img {
 }
 
 .post{
-    padding-bottom: 5%;
+    padding-bottom: 10%;
+
 }
 a{
     color: slateblue;
+    text-decoration: none;
 }
 a:hover{
     color: salmon;
 }
+.journal-page nav{
+    width: 100%;
+    display: flex;
+    padding-bottom: 20px;
+    margin-bottom: 8%;
+    border-bottom: 1px solid slateblue;
+}
+
+nav .left{
+    flex: 30%;  
+}
+nav .left h1{
+    text-align: left;
+    margin: 0;
+}
+nav .right p{
+    margin: 0;
+    padding-top: 40px;
+}
+nav .right{
+    flex: 70%;
+    text-align: right;
+}
+
